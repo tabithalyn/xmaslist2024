@@ -1,9 +1,21 @@
+import ghostface from "/public/static/assets/ghostface-1.png";
+import umbrella from "/public/static/assets/umbrella-1.png";
+import lipMask from "/public/static/assets/lip-mask-1.png";
+import americanIdiot from "/public/static/assets/ai-lp.png";
+import pjs from "/public/static/assets/flannel-pj.png";
+import beanie from "/public/static/assets/bestie-beanie.png";
+import camis from "/public/static/assets/5pk-camis.png";
+import brushSet from "/public/static/assets/brush-set.png";
+import hoodie from "/public/static/assets/socomfy-hoodie.png";
+import settingSpray from "/public/static/assets/setting-spray.png";
+import necklace from "/public/static/assets/layered-necklace.png";
+import giftCards from "/public/static/assets/gift-cards.png";
 
 export const items = [
   {
     id: 0,
     name: "Ghostface Printed Tee",
-    img: "ghostface-1.png",
+    img: ghostface,
     price: 13,
     size: ["US 4 (S)"],
     website: "Shein",
@@ -13,7 +25,7 @@ export const items = [
   {
     id: 1,
     name: "Travel Umbrella",
-    img: "umbrella-1.png",
+    img: umbrella,
     price: 11,
     size: ["Burgundy"],
     website: "Shein",
@@ -23,7 +35,7 @@ export const items = [
   {
     id: 2,
     name: "Divine Lip Mask Duo",
-    img: "lip-mask-1.png",
+    img: lipMask,
     price: 33,
     size: ["N/A"],
     website: "Sephora",
@@ -33,7 +45,7 @@ export const items = [
   {
     id: 3,
     name: "American Idiot 20th Anniversary LP",
-    img: "ai-lp.png",
+    img: americanIdiot,
     price: 55,
     size: ["N/A"],
     website: "Other",
@@ -43,7 +55,7 @@ export const items = [
   {
     id: 4,
     name: "Flannel Pajama Joggers",
-    img: "flannel-pj.png",
+    img: pjs,
     price: 21,
     size: ["XL", "Navy Tartan"],
     website: "Old Navy",
@@ -53,7 +65,7 @@ export const items = [
   {
     id: 5,
     name: "Bestie Beanie",
-    img: "bestie-beanie.png",
+    img: beanie,
     price: 14,
     size: ["Cream"],
     website: "American Eagle",
@@ -63,7 +75,7 @@ export const items = [
   {
     id: 6,
     name: "5pk Camisoles",
-    img: "5pk-camis.png",
+    img: camis,
     price: 35,
     size: ["XL", "3 Black 2 White"],
     website: "Amazon",
@@ -73,7 +85,7 @@ export const items = [
   {
     id: 7,
     name: "Bamboo & Charcoal Face Brush Set",
-    img: "brush-set.png",
+    img: brushSet,
     price: 35,
     size: ["N/A"],
     website: "Sephora",
@@ -83,7 +95,7 @@ export const items = [
   {
     id: 8,
     name: "SoComfy Zip Hoodie",
-    img: "socomfy-hoodie.png",
+    img: hoodie,
     price: 28,
     size: ["L", "Black Jack"],
     website: "Old Navy",
@@ -93,7 +105,7 @@ export const items = [
   {
     id: 9,
     name: "UD Setting Spray Mini Trio",
-    img: "setting-spray.png",
+    img: settingSpray,
     price: 30,
     size: ["N/A"],
     website: "Sephora",
@@ -103,7 +115,7 @@ export const items = [
   {
     id: 10,
     name: "Layered Necklace",
-    img: "layered-necklace.png",
+    img: necklace,
     price: 3.50,
     size: ["N/A"],
     website: "Shein",
@@ -113,7 +125,7 @@ export const items = [
   {
     id: 11,
     name: "Gift Cards",
-    img: "gift-cards.png",
+    img: giftCards,
     price: 0,
     size: ["LCBO", "American Eagle", "President's Choice (PC)", "Starbucks", "Sephora"],
     website: "Other",
@@ -121,16 +133,3 @@ export const items = [
     link: ""
   }
 ];
-
-/*
-{
-    id: 1,
-    name: "",
-    img: "/",
-    price: 35,
-    size: [""],
-    website: "",
-    notes: "",
-    link: ""
-  }
-*/
