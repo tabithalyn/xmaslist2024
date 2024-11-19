@@ -3,7 +3,7 @@ export const items = [
   {
     id: 0,
     name: "Ghostface Printed Tee",
-    img: "./assets/Images/ghostface-1.png",
+    img: "public/static/assets/ghostface-1.png",
     price: 13,
     size: ["US 4 (S)"],
     website: "Shein",
@@ -13,7 +13,7 @@ export const items = [
   {
     id: 1,
     name: "Travel Umbrella",
-    img: "./assets/Images/umbrella-1.png",
+    img: "public/static/assets/umbrella-1.png",
     price: 11,
     size: ["Burgundy"],
     website: "Shein",
@@ -23,7 +23,7 @@ export const items = [
   {
     id: 2,
     name: "Divine Lip Mask Duo",
-    img: "./assets/Images/lip-mask-1.png",
+    img: "public/static/assets/lip-mask-1.png",
     price: 33,
     size: ["N/A"],
     website: "Sephora",
@@ -33,7 +33,7 @@ export const items = [
   {
     id: 3,
     name: "American Idiot 20th Anniversary LP",
-    img: "./assets/Images/ai-lp.png",
+    img: "public/static/assets/ai-lp.png",
     price: 55,
     size: ["N/A"],
     website: "Other",
@@ -43,7 +43,7 @@ export const items = [
   {
     id: 4,
     name: "Flannel Pajama Joggers",
-    img: "./assets/Images/flannel-pj.png",
+    img: "public/static/assets/flannel-pj.png",
     price: 21,
     size: ["XL", "Navy Tartan"],
     website: "Old Navy",
@@ -53,7 +53,7 @@ export const items = [
   {
     id: 5,
     name: "Bestie Beanie",
-    img: "./assets/Images/bestie-beanie.png",
+    img: "public/static/assets/bestie-beanie.png",
     price: 14,
     size: ["Cream"],
     website: "American Eagle",
@@ -63,7 +63,7 @@ export const items = [
   {
     id: 6,
     name: "5pk Camisoles",
-    img: "./assets/Images/5pk-camis.png",
+    img: "public/static/assets/5pk-camis.png",
     price: 35,
     size: ["XL", "3 Black 2 White"],
     website: "Amazon",
@@ -73,7 +73,7 @@ export const items = [
   {
     id: 7,
     name: "Bamboo & Charcoal Face Brush Set",
-    img: "./assets/Images/brush-set.png",
+    img: "public/static/assets/brush-set.png",
     price: 35,
     size: ["N/A"],
     website: "Sephora",
@@ -83,7 +83,7 @@ export const items = [
   {
     id: 8,
     name: "SoComfy Zip Hoodie",
-    img: "./assets/Images/socomfy-hoodie.png",
+    img: "public/static/assets/socomfy-hoodie.png",
     price: 28,
     size: ["L", "Black Jack"],
     website: "Old Navy",
@@ -93,7 +93,7 @@ export const items = [
   {
     id: 9,
     name: "UD Setting Spray Mini Trio",
-    img: "./assets/Images/setting-spray.png",
+    img: "public/static/assets/setting-spray.png",
     price: 30,
     size: ["N/A"],
     website: "Sephora",
@@ -103,7 +103,7 @@ export const items = [
   {
     id: 10,
     name: "Layered Necklace",
-    img: "./assets/Images/layered-necklace.png",
+    img: "public/static/assets/layered-necklace.png",
     price: 3.50,
     size: ["N/A"],
     website: "Shein",
@@ -113,7 +113,7 @@ export const items = [
   {
     id: 11,
     name: "Gift Cards",
-    img: "./assets/Images/gift-cards.png",
+    img: "public/static/assets/gift-cards.png",
     price: 0,
     size: ["LCBO", "American Eagle", "President's Choice (PC)", "Starbucks", "Sephora"],
     website: "Other",
@@ -126,7 +126,8 @@ export const items = [
 {
     id: 1,
     name: "",
-    img:srcprice: 35,
+    img: "",
+    price: 35,
     size: [""],
     website: "",
     notes: "",
