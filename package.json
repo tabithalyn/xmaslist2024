@@ -3,12 +3,15 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "license": "UNLICENSED",
   "homepage": ".",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "copy": "copyfiles *.png -u 2 src/assets/Images/*.png dist/assets/Images/",
+    "build-n-copy": "tsc -p . && copyfiles *.png -u 2 src/assets/Images/*.png dist/assets/Images/"
   },
   "dependencies": {
     "lodash": "^4.17.21",
@@ -24,6 +27,7 @@
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
     "autoprefixer": "^10.4.20",
+    "copyfiles": "^2.4.1",
     "eslint": "^9.13.0",
     "eslint-plugin-react-hooks": "^5.0.0",
     "eslint-plugin-react-refresh": "^0.4.14",
