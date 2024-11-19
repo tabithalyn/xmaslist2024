@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "license": "UNLICENSED",
-  "homepage": ".",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
