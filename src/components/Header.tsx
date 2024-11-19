@@ -1,4 +1,4 @@
-import lightsImg from "/src/assets/Images/qcBXLgB4i.gif";
+import lightsImg from "/public/static/assets/qcBXLgB4i.gif";
 
 const Header = () => {
   return (
