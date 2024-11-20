@@ -10,6 +10,9 @@ import hoodie from "/public/static/assets/socomfy-hoodie.png";
 import settingSpray from "/public/static/assets/setting-spray.png";
 import necklace from "/public/static/assets/layered-necklace.png";
 import giftCards from "/public/static/assets/gift-cards.png";
+import polarFleece from "/public/static/assets/polar-fleece.png";
+import bagSet from "/public/static/assets/bag-set.png";
+import recordPlayer from "/public/static/assets/record-player.png";
 
 export const items = [
   {
@@ -131,5 +134,35 @@ export const items = [
     website: "Other",
     notes: "",
     link: ""
+  },
+  {
+    id: 12,
+    name: "Polar Fleeze 1/4 Zip",
+    img: polarFleece,
+    price: 24,
+    size: ["Burgundy", "XL"],
+    website: "Other",
+    notes: "",
+    link: "https://www.ardene.com/ca/en/polar-fleece-1%2F4-zip-sweatshirt/4B-AP31965-09.html?dwvar_4B-AP31965-09_color=4B-AP31965-09&dwvar_4B-AP31965-09_size=xl&quantity=1"
+  },
+  {
+    id: 13,
+    name: "3pc Bag Set",
+    img: bagSet,
+    price: 33,
+    size: ["Black"],
+    website: "Shein",
+    notes: "",
+    link: "https://ca.shein.com/New-2024-European-And-American-Fashion-3pcs-Set-Tote-Bag-Messenger-Bag-Shoulder-Bag-p-42764410.html?mallCode=1"
+  },
+  {
+    id: 13,
+    name: "Vinyl Record Player",
+    img: recordPlayer,
+    price: 60,
+    size: ["N/A"],
+    website: "Amazon",
+    notes: "Doesn't have to be this one, could be cheaper",
+    link: "https://www.amazon.ca/Turntable-Belt-Driven-Wireless-Headphone-Enjoyment/dp/B0BRB29ZDW?crid=1APZ2AVUY86R1"
   }
 ];
