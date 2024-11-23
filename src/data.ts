@@ -13,6 +13,9 @@ import giftCards from "/public/static/assets/gift-cards.png";
 import polarFleece from "/public/static/assets/polar-fleece.png";
 import bagSet from "/public/static/assets/bag-set.png";
 import recordPlayer from "/public/static/assets/record-player.png";
+import workingHands from "/public/static/assets/working-hands.png";
+import stickerPaper from "/public/static/assets/sticker-paper.png";
+import usbAdapter from "/public/static/assets/usb-adapter.png";
 
 export const items = [
   {
@@ -82,7 +85,7 @@ export const items = [
     price: 35,
     size: ["XL", "3 Black 2 White"],
     website: "Amazon",
-    notes: "Can be bought elsewhere, just something like this",
+    notes: "Can be bought elsewhere, just something like this (black)",
     link: "https://www.amazon.ca/BQTQ-Pieces-Camisole-Spaghetti-Adjustable/dp/B0BLHFHH8F?th=1&psc=1"
   },
   {
@@ -127,16 +130,6 @@ export const items = [
   },
   {
     id: 11,
-    name: "Gift Cards",
-    img: giftCards,
-    price: 0,
-    size: ["LCBO", "American Eagle", "President's Choice (PC)", "Starbucks", "Sephora"],
-    website: "Other",
-    notes: "",
-    link: ""
-  },
-  {
-    id: 12,
     name: "Polar Fleeze 1/4 Zip",
     img: polarFleece,
     price: 24,
@@ -144,6 +137,16 @@ export const items = [
     website: "Other",
     notes: "",
     link: "https://www.ardene.com/ca/en/polar-fleece-1%2F4-zip-sweatshirt/4B-AP31965-09.html?dwvar_4B-AP31965-09_color=4B-AP31965-09&dwvar_4B-AP31965-09_size=xl&quantity=1"
+  },
+  {
+    id: 12,
+    name: "Gift Cards",
+    img: giftCards,
+    price: 0,
+    size: ["LCBO", "American Eagle", "President's Choice (PC)", "Starbucks", "Sephora"],
+    website: "Other",
+    notes: "",
+    link: ""
   },
   {
     id: 13,
@@ -156,7 +159,7 @@ export const items = [
     link: "https://ca.shein.com/New-2024-European-And-American-Fashion-3pcs-Set-Tote-Bag-Messenger-Bag-Shoulder-Bag-p-42764410.html?mallCode=1"
   },
   {
-    id: 13,
+    id: 14,
     name: "Vinyl Record Player",
     img: recordPlayer,
     price: 60,
@@ -164,5 +167,35 @@ export const items = [
     website: "Amazon",
     notes: "Doesn't have to be this one, could be cheaper",
     link: "https://www.amazon.ca/Turntable-Belt-Driven-Wireless-Headphone-Enjoyment/dp/B0BRB29ZDW?crid=1APZ2AVUY86R1"
+  },
+  {
+    id: 15,
+    name: "Working Hands Lotion",
+    img: workingHands,
+    price: 6,
+    size: ["1oz"],
+    website: "Walmart",
+    notes: "",
+    link: "https://www.walmart.ca/en/ip/working-hands-hand-cream/6000202728001"
+  },
+  {
+    id: 16,
+    name: "Sticker Paper",
+    img: stickerPaper,
+    price: 11,
+    size: ["10 sheets"],
+    website: "Walmart",
+    notes: "Or something similar",
+    link: "https://www.walmart.ca/en/ip/avery-sticker-project-paper-for-inkjet-printers-white/6000200935304"
+  },
+  {
+    id: 17,
+    name: "USB C to USB 3.0 Adapter 3pk",
+    img: usbAdapter,
+    price: 8,
+    size: ["N/A"],
+    website: "Amazon",
+    notes: "",
+    link: "https://www.amazon.ca/Adapter-3-Pack-Leizhan-Thunderbolt-MacBook/dp/B098NZW7JD?th=1"
   }
 ];

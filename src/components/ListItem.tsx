@@ -3,10 +3,10 @@ import { ItemType } from "./Filter";
 import { isInteger } from "lodash";
 import { FaExternalLinkAlt } from "react-icons/fa";
 
-const ListItem = ({ key, item } : { key: number; item: ItemType}) => {
+const ListItem = ({ item } : { item: ItemType}) => {
   return (
     <>
-      <div key={key} className="p-8 max-w-lg border border-gray-300 rounded-2xl hover:shadow-xl hover:shadow-indigo-50 col-span-1 bg-white">
+      <div className="p-8 max-w-lg border border-gray-300 rounded-2xl hover:shadow-xl hover:shadow-indigo-50 col-span-1 bg-white">
         <img src={item.img} className="shadow rounded-lg overflow-hidden border" alt={item.name} />
         <div className="mt-8 flex flex-wrap items-between">
           <h4 className="font-bold text-xl w-full h-16 flex justify-center items-center text-center bg-[#f3f3f3] rounded-xl">{item.name}</h4>

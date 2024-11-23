@@ -17,7 +17,7 @@ const Filter = () => {
   const [selectedFilters, setSelectedFilters] = useState<string[]>([""]);
   const [filteredItems, setFilteredItems] = useState<ItemType[]>(items);
 
-  const filters = ["Shein", "Amazon", "Sephora", "American Eagle", "Old Navy", "Other"];
+  const filters = ["Shein", "Amazon", "Sephora", "American Eagle", "Old Navy", "Walmart", "Other"];
 
   const handleFilterButtonClick = (selectedCategory:string) => {
     if (selectedFilters.includes(selectedCategory)) {
@@ -45,29 +45,37 @@ const Filter = () => {
 
   return (
     <div>
-      <div className="flex gap-5 flex-wrap justify-center p-8">
-        {filters.map((category, id) => (
-          <button
-            key={id}
-            onClick={() => handleFilterButtonClick(category)}
-            className={`${selectedFilters?.includes(category) ? "inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900" : "inline-flex items-center rounded-md border border-gray-100 bg-white px-3 py-2 text-sm font-medium leading-4 text-gray-900 shadow-sm hover:bg-gray-300"}`}
-          >
-            {category}
-          </button>
-        ))}
-        {
-          selectedFilters.length > 1 ? (
-            <button className="inline-flex items-center rounded-md border border-gray-100 bg-black px-3 py-2 text-sm font-medium leading-4 text-gray-100 shadow-sm hover:bg-gray-900" onClick={() => setSelectedFilters([""])}>CLEAR FILTERS</button>
-          ) : null
-        }
+      <div>
+        <p className="w-full flex flex-wrap justify-center gap-x-5 gap-y-2">
+          {filters.map((category, id) => (
+            <button
+              key={id}
+              onClick={() => handleFilterButtonClick(category)}
+              className={`${selectedFilters?.includes(category) ? "inline-flex items-center rounded-md border border-transparent bg-gray-800 px-3 py-2 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900" : "inline-flex items-center rounded-md border border-gray-100 bg-white px-3 py-2 text-sm font-medium leading-4 text-gray-900 shadow-sm hover:bg-gray-300"}`}
+            >
+              {category}
+            </button>
+          ))}
+          {
+            selectedFilters.length > 1 ? (
+              <button className="inline-flex items-center rounded-md border border-gray-100 bg-black px-3 py-2 text-sm font-medium leading-4 text-gray-100 shadow-sm hover:bg-gray-900" onClick={() => setSelectedFilters([""])}>CLEAR FILTERS</button>
+            ) : null
+          }
+        </p>
       </div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-10">
-        {filteredItems && filteredItems.map((item, id) => (
-          <ListItem key={id} item={item} />
-        ))}
-        {filteredItems.length < 1 && items.map((item, id) => (
-          <ListItem key={id} item={item} />
-        ))}
+        {
+          filteredItems &&
+            filteredItems.map((item, id) => (
+              <ListItem key={id} item={item} />
+            ))
+        }
+        {
+          filteredItems.length < 1 &&
+            items.map((item, id) => (
+              <ListItem key={id} item={item} />
+            ))
+        }
       </div>
     </div>
   );
