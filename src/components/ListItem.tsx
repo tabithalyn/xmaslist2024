@@ -11,7 +11,7 @@ const ListItem = ({ item } : { item: ItemType}) => {
         <div className="mt-8 flex flex-wrap items-between">
           <h4 className="font-bold text-xl w-full h-16 flex justify-center items-center text-center bg-[#f3f3f3] rounded-xl">{item.name}</h4>
           <p className="mt-2 text-gray-700 w-3/4 uppercase text-base font-semibold flex items-center pl-2">{item.website}</p>
-          {item.id !== 11 ? (
+          {item.id !== 12 ? (
             <p className="mt-2 py-2 pr-1 text-gray-900 flex flex-wrap w-1/4 justify-center text-lg font-bold"><BsCurrencyDollar className="mt-[5px]" />
               {
                 isInteger(item.price) ? item.price : item.price.toFixed(2)
@@ -19,10 +19,10 @@ const ListItem = ({ item } : { item: ItemType}) => {
             </p>
           ) : null}
           <div className="mt-8 text-gray-500 w-full text-center">
-          {item.id !== 11 ? ( <span>Size/Colour: </span>) : null }
+          {item.id !== 12 ? ( <span>Size/Colour: </span>) : null }
             {item.size.map((s, i, arr) => (
               <div key={i} className="inline">
-                {item.id !== 11 ? (
+                {item.id !== 12 ? (
                   <p className="font-medium inline">
                     {s}{i !== arr.length - 1 ? ", " : " "}
                   </p>
@@ -37,7 +37,7 @@ const ListItem = ({ item } : { item: ItemType}) => {
               {item.notes}
             </p>
           ) : null}
-          {item.id !== 11 ? (
+          {item.id !== 12 ? (
             <div className="mt-5 w-full flex justify-center">
               <button type="button" className="inline-flex items-center rounded-md border border-transparent bg-gray-800 px-4 py-3 text-sm font-medium leading-4 text-white shadow-sm hover:bg-gray-900" onClick={() => window.open(item.link, '_blank')}>
                 Link to Product <FaExternalLinkAlt className="ml-2" />
