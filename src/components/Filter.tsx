@@ -17,7 +17,7 @@ const Filter = () => {
   const [selectedFilters, setSelectedFilters] = useState<string[]>([""]);
   const [filteredItems, setFilteredItems] = useState<ItemType[]>(items);
 
-  const filters = ["Shein", "Amazon", "Sephora", "American Eagle", "Old Navy", "Walmart", "Other"];
+  const filters = ["Shein", "Amazon", "Sephora", "American Eagle", "Old Navy", "Walmart", "Ardene", "Other"];
 
   const handleFilterButtonClick = (selectedCategory:string) => {
     if (selectedFilters.includes(selectedCategory)) {

@@ -16,6 +16,9 @@ import recordPlayer from "/public/static/assets/record-player.png";
 import workingHands from "/public/static/assets/working-hands.png";
 import stickerPaper from "/public/static/assets/sticker-paper.png";
 import usbAdapter from "/public/static/assets/usb-adapter.png";
+import sponges from "/public/static/assets/sponges.png";
+import ribbedBeanie from "/public/static/assets/ribbed-beanie.png";
+import fairisleGloves from "/public/static/assets/fairisle-gloves.png";
 
 export const items = [
   {
@@ -134,7 +137,7 @@ export const items = [
     img: polarFleece,
     price: 24,
     size: ["Burgundy", "XL"],
-    website: "Other",
+    website: "Ardene",
     notes: "",
     link: "https://www.ardene.com/ca/en/polar-fleece-1%2F4-zip-sweatshirt/4B-AP31965-09.html?dwvar_4B-AP31965-09_color=4B-AP31965-09&dwvar_4B-AP31965-09_size=xl&quantity=1"
   },
@@ -197,5 +200,35 @@ export const items = [
     website: "Amazon",
     notes: "",
     link: "https://www.amazon.ca/Adapter-3-Pack-Leizhan-Thunderbolt-MacBook/dp/B098NZW7JD?th=1"
+  },
+  {
+    id: 18,
+    name: "Makeup Sponges 6pk",
+    img: sponges,
+    price: 14.90,
+    size: ["N/A"],
+    website: "Ardene",
+    notes: "",
+    link: "https://www.ardene.com/ca/en/6-pack-makeup-sponges/4A-AC32187-03.html?dwvar_4A-AC32187-03_color=4A-AC32187-03&dwvar_4A-AC32187-03_size=o%2Fs&quantity=1"
+  },
+  {
+    id: 19,
+    name: "Ribbed Beanie",
+    img: ribbedBeanie,
+    price: 7.14,
+    size: ["Black"],
+    website: "Ardene",
+    notes: "",
+    link: "https://www.ardene.com/ca/en/wide-cuff-ribbed-beanie/4B-AC34970-10.html?dwvar_4B-AC34970-10_color=4B-AC34970-10&dwvar_4B-AC34970-10_size=o%2Fs&quantity=1"
+  },
+  {
+    id: 20,
+    name: "Fair Isle Gloves",
+    img: fairisleGloves,
+    price: 6.50,
+    size: ["N/A"],
+    website: "Ardene",
+    notes: "",
+    link: "https://www.ardene.com/ca/en/fair-isle-gloves/4B-AC33632-10.html?dwvar_4B-AC33632-10_color=4B-AC33632-10&dwvar_4B-AC33632-10_size=o%2Fs&quantity=1"
   }
 ];
